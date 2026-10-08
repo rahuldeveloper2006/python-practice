@@ -1,0 +1,11 @@
+num1=float(input("enter your 1st number"))
+char=str(input("enter your desire operation"))
+num2=float(input("enter yor 2nd number"))
+match char:
+    case '+': print(num1+num2)
+    case '-': print(num1-num2)
+    case '*': print(num1*num2)
+    case '/': print(num1/num2)
+    case '%': print(num1%num2)
+    case '**': print("square of", num1,"is:",num1**2,"\n and square of ",num2," is:",num2**2)
+    case _ : print("operation is not available")
